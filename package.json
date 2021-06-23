@@ -1,0 +1,15 @@
+{
+  "name": "rock-paper-scissor",
+  "version": "1.0.0",
+  "description": "A simple Rock-Paper-Scissor package",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "rps",
+    "rock-paper-scissors"
+  ],
+  "author": "",
+  "license": "ISC"
+}
