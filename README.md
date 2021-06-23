@@ -1,3 +1,5 @@
+![Dependencies](https://img.shields.io/badge/Dependenices-0-brightgreen)
+
 # About
 Integrate the "Rock-Paper-Scissors" game into your project using this simple package
 * Get the results easily in the form of JSON
