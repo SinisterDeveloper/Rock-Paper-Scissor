@@ -10,6 +10,15 @@
     "rps",
     "rock-paper-scissors"
   ],
+  "homepage": "https://github.com/SinisterDeveloper/Rock-Paper-Scissor",
+  "bugs": {
+    "url": "https://github.com/SinisterDeveloper/Rock-Paper-Scissor/issues",
+    "email": "thesinisterdev@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SinisterDeveloper/Rock-Paper-Scissor.git"
+  },
   "author": "",
   "license": "ISC"
 }
