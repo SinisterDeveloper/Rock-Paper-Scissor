@@ -6,7 +6,7 @@ Integrate the "Rock-Paper-Scissors" game into your project using this simple pac
 * No bugs discovered till date
 
 # Installation
-```sh-session
+```bash
 npm install @sinisterdev/rock-paper-scissor
 ```
 # Usage
