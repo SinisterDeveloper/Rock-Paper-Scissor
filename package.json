@@ -1,6 +1,6 @@
 {
   "name": "@sinisterdev/rock-paper-scissor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple Rock-Paper-Scissor package",
   "main": "index.js",
   "scripts": {
