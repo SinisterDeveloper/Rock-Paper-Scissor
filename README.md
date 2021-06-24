@@ -15,10 +15,9 @@ const game = require('@sinisterdev/rock-paper-scissor');
 
 const result = game.play("rock"); /* Options: ["rock", "paper", "scissors"] */
 
-console.log(result);
-/*
-{ status: 'success/failure', computer: 'rock/scissors/paper', winner: 'player/computer/tie' }
-*/
+console.log(result); // { status: 'success/failure', computer: 'rock/scissors/paper', winner: 'player/computer/tie' }
+console.log(result.winner) // player/computer/tie
+console.log(result.computer) // rock/scissors/paper - Shows the computer's choice
 ```
 
 # Issues
