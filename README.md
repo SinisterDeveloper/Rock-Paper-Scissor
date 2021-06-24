@@ -17,7 +17,7 @@ const result = game.play("rock"); /* Options: ["rock", "paper", "scissors"] */
 
 console.log(result);
 /*
-{ status: 'success/failure', computer: 'rock/scissors/paper', winner: 'player/computer' }
+{ status: 'success/failure', computer: 'rock/scissors/paper', winner: 'player/computer/tie' }
 */
 ```
 
