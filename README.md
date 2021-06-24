@@ -11,7 +11,7 @@ npm install @sinisterdev/rock-paper-scissor
 ```
 # Usage
 ```javascript
-const game = require('rock-paper-scissor');
+const game = require('@sinisterdev/rock-paper-scissor');
 
 const result = game.play("rock"); /* Options: ["rock", "paper", "scissors"] */
 
