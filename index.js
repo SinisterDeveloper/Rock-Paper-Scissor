@@ -13,7 +13,7 @@ function play(choice) {
 
     if (!options.some(substring => choice.toLowerCase() == substring)) {
         result = `{"status":"failure", "error":"Invalid choice provided"}`;
-    };
+    }
     const computerChoice = options[Math.floor(Math.random() * options.length)];
     const playerChoice = choice.toLowerCase();
 
@@ -40,11 +40,11 @@ function play(choice) {
         } else {
             result = `{"status":"success", "computer":"${computerChoice}", "winner":"player"}`;
         }
-    };
+    }
 
     let res = JSON.parse(result);
 
     return res;
-};
+}
 
 exports.play = play;
