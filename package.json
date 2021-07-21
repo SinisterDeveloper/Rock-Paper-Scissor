@@ -3,8 +3,10 @@
   "version": "1.0.2",
   "description": "A simple Rock-Paper-Scissor package",
   "main": "index.js",
+  "types": "./typings/index.d.ts",
   "scripts": {
-    "test": "node index.js"
+    "test": "cd tests && node main.js",
+    "postinstall": "node postinstall.js"
   },
   "keywords": [
     "rps",
@@ -19,6 +21,6 @@
     "type": "git",
     "url": "https://github.com/SinisterDeveloper/Rock-Paper-Scissor.git"
   },
-  "author": "",
+  "author": "thesinisterdev",
   "license": "Apache-2.0"
 }

@@ -1,0 +1,9 @@
+# Project related
+
+.github/
+.gitignore
+
+
+# Misc
+.idea
+.vscode
