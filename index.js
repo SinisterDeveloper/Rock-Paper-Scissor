@@ -9,12 +9,12 @@
 function play(choice) {
     const options = ['rock', 'paper', 'scissors'];
 
-    if (choice.toLowerCase().replaceAll(' ', '').includes('scissor')) choice = 'scissors';
+    /**
+     * Removed this line as it didn't allow node versions < 14.7
+     */
+    // if (choice.toLowerCase().replaceAll(' ', '').includes('scissor')) choice = 'scissors';
 
-    choice = choice
-        .toLowerCase()
-        .replaceAll(' ', '');
-
+    choice = choice.toLowerCase();
 
     let result;
 
