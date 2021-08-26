@@ -23,7 +23,5 @@
   "author": "thesinisterdev",
   "license": "Apache-2.0",
   "type": "module",
-  "dependencies": {
-    "@sinisterdev/rock-paper-scissor": "^1.1.0"
-  }
+  "dependencies": {}
 }

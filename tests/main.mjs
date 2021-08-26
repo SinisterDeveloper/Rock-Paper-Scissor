@@ -1,6 +1,6 @@
 // Tests for module in Modern Javascript (mjs)
 
-import game from '@sinisterdev/rock-paper-scissor';
+import game from '../index';
 
 const res = game.play('rock');
 

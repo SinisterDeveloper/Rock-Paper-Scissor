@@ -1,6 +1,6 @@
 // Tests for module using destructured function
 
-import { play } from "@sinisterdev/rock-paper-scissor";
+import { play } from '../index';
 
 const res = play('rock');
 
