@@ -1,4 +1,12 @@
-![Dependencies](https://img.shields.io/badge/Dependenices-0-brightgreen) [![CodeFactor](https://www.codefactor.io/repository/github/sinisterdeveloper/rock-paper-scissor/badge/stable)](https://www.codefactor.io/repository/github/sinisterdeveloper/rock-paper-scissor/overview/stable)
+<div align="center">
+  <br />
+  <p>
+    <img alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/SinisterDeveloper/rock-paper-scissor/stable">
+    <img alt="LICENSE" src="https://img.shields.io/github/license/SinisterDeveloper/rock-paper-scissor">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/@sinisterdev/rock-paper-scissor">
+    <img alt="NPM bundle size" src="https://img.shields.io/bundlephobia/min/@sinisterdev/rock-paper-scissor">
+  </p>
+</div>
 
 # About
 Integrate the "Rock-Paper-Scissors" game into your project using this simple package
