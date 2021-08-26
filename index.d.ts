@@ -2,15 +2,6 @@
 
 declare module "@sinisterdev/rock-paper-scissor" {
 
-    export interface GameOptions {
-
-        /*
-            Rock
-            Paper
-            Scissors
-        */
-        choice: string;
-    }
 
     export interface Result {
 

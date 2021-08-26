@@ -94,4 +94,5 @@ function play(choice) {
     return result;
 }
 
-exports.play = play;
+const _play = play;
+export { _play as play };
