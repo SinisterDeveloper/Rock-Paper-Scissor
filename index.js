@@ -10,7 +10,7 @@ function play(choice) {
     const options = ['rock', 'paper', 'scissors'];
 
     if (choice.toLowerCase().replaceAll(' ', '').includes('scissor')) choice = 'scissors';
-    
+
     choice = choice
         .toLowerCase()
         .replaceAll(' ', '');
@@ -20,8 +20,8 @@ function play(choice) {
 
     if (!options.some(substring => choice.toLowerCase() == substring)) {
         result = {
-            status: "failure",
-            error: "Invalid choice provided"
+            status: 'failure',
+            error: 'Invalid choice provided'
         }
     }
     const computerChoice = options[Math.floor(Math.random() * options.length)];
@@ -29,9 +29,9 @@ function play(choice) {
 
     if (computerChoice == playerChoice) {
         result = {
-            status: "success",
+            status: 'success',
             computer: computerChoice,
-            winner: "tie"
+            winner: 'tie'
         }
     }
     else if (playerChoice == 'rock') {
@@ -39,35 +39,35 @@ function play(choice) {
         if (computerChoice == 'paper') {
 
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "computer"
+                winner: 'computer'
             }
 
         } else {
 
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "player"
+                winner: 'player'
             }
         }
     }
     else if (playerChoice == 'scissors') {
 
         if (computerChoice == 'rock') {
-            
+
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "computer"
+                winner: 'computer'
             }
         } else {
 
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "player"
+                winner: 'player'
             }
         }
 
@@ -75,18 +75,18 @@ function play(choice) {
     else if (playerChoice == 'paper') {
 
         if (computerChoice == 'scissors') {
-           
+
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "computer"
+                winner: 'computer'
             }
         } else {
-            
+
             result = {
-                status: "success",
+                status: 'success',
                 computer: computerChoice,
-                winner: "player"
+                winner: 'player'
             }
         }
 

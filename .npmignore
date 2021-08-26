@@ -1,9 +1,8 @@
 # Project related
 
-.github/
+.github
 .gitignore
-tests/
-
+tests
 
 # Misc
 .idea
