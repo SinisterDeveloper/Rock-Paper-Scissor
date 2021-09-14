@@ -5,7 +5,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "cd tests && node main.cjs && node main.mjs && node destructure.js"
+    "test": "node tests/main.js",
+    "test:force": "node tests/force.js"
   },
   "keywords": [
     "rps",

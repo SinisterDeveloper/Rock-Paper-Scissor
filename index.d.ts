@@ -3,16 +3,18 @@
 declare module '@sinisterdev/rock-paper-scissor' {
     export interface Result {
 
-        // string containing the status of the round (either 'success' or 'error')
-        status: string;
+        // Whether the game functioned as expected
+        success: boolean;
 
         // string containing the computer's choice
-        computer: string;
+        computer: string | null;
 
         // string containing the winner of round (player/computer/tie)
-        winner: string;
+        winner: 'player' | 'computer' | 'tie' | null;
 
+        // The error message, null when operation is successful
+        error: string | null;
     }
 
-    function play(choice: string): Result;
+    function play(choice: string, force?: boolean): Result;
 }

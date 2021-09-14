@@ -9,16 +9,20 @@
 </div>
 
 # About
+
 Integrate the "Rock-Paper-Scissors" game into your project using this simple package
 * Get the results easily in the form of an object
 * No bugs discovered till date
 * Beginner friendly and fast
 
 # Installation
+
 ```bash
 npm install @sinisterdev/rock-paper-scissor
 ```
+
 # Usage
+
 ```javascript
 const game = require('@sinisterdev/rock-paper-scissor');
 
@@ -34,11 +38,13 @@ console.log(result.computer) // Retuns the computer's choice in form of string
 
 `<Result>` is the Result object:
 
-`<Result>.status` - Returns string containing the status of the round (either "success" or "error")
+`<Result>.success` - Whether the game functioned as expected - Type: `boolean`
 
-`<Result>.winner` - Returns the winner of the round in the form of a string. Note that the round may result in a tie
+`<Result>.winner` - Winner of the round in the form of a string. Round may have resulted in a tie if `play()` function's force parameter is set to false. Type: `string`
 
-`<Result>.computer` - Returns the computer's choice in form of a string.
+`<Result>.computer` - The computer's choice in form of a string. Type: `string`
+
+`<Result>.error` - The error message, `null` when operation is successful
 
 
 # Issues
