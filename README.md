@@ -29,7 +29,7 @@ const game = require('@sinisterdev/rock-paper-scissor');
 const result = game.play("rock"); /* Options: ["rock", "paper", "scissors"] */
 
 console.log(result); // Returns an object containing result
-console.log(result.status) // Returns string containing either "success" or "error"
+console.log(result.success) // Returns aboolean whether the game functioned as expected
 console.log(result.winner) // Returns a string containing the winner of round (player/computer/tie)
 console.log(result.computer) // Retuns the computer's choice in form of string
 ```
